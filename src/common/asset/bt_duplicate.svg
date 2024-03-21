@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<svg width="80" height="95" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 141.732 141.732" version="1.1" xml:space="preserve">
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <defs transform="translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(1 0) translate(1 0) translate(1 0) translate(1 0) translate(1 0) translate(-6 -6) translate(0 -1) translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(-1 0) translate(1 0) translate(1 0) translate(1 0) translate(1 0) translate(1 0) translate(1 0) translate(1 0) translate(0 -30.5) translate(-39.26 0)">
+    <rect height="141.73" id="SVGID_1_" width="141.73"/>
+   </defs>
+   <clipPath id="SVGID_2_">
+    <use id="svg_2" overflow="visible" x="-34.26" xlink:href="#SVGID_1_" y="-25.5"/>
+   </clipPath>
+   <path clip-path="url(#SVGID_2_)" d="m56.99,5l-44.24,0c-4.28,0 -7.75,3.46 -7.75,7.75l0,61.39" fill="none" id="svg_3" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="11"/>
+   <path clip-path="url(#SVGID_2_)" d="m22.45,30.2c0,-4.28 3.47,-7.75 7.75,-7.75l36.5,0c4.28,0 7.75,3.47 7.75,7.75l0,52.09c0,4.28 -3.47,7.75 -7.75,7.75l-36.5,0c-4.28,0 -7.75,-3.47 -7.75,-7.75l0,-52.09z" fill="none" id="svg_4" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="11"/>
+  </g>
+ </g>
+</svg>

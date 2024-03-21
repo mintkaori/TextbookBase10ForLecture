@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width, height=device-height, target-densitydpi=device-dpi">
+        <title>수 구슬</title>
+        <link rel="stylesheet" href="../common/css/global.css">
+        <link rel="stylesheet" href="../common/css/animation.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <svg>
+            <filter id="filterOutline" x="-40%" width="180%" y="-40%" height="180%">
+                <feMorphology in="SourceAlpha" result="EXP" operator="dilate" radius="2"></feMorphology>
+                
+                <feFlood flood-color="#1F618D" flood-opacity="1" result="LINECOLOR"></feFlood>
+                <feComposite in="LINECOLOR" in2="EXP" operator="in" result="OUTLINE"></feComposite>
+        
+                <feMerge>
+                    <feMergeNode in="OUTLINE" />
+                    <feMergeNode in="SourceGraphic" />
+                </feMerge>
+            </filter>
+            <defs>
+                <linearGradient id="rowlinefill" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color:rgb(120,120,120);stop-opacity:1" />
+                    <stop offset="30%" style="stop-color:rgb(200,200,200);stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:rgb(220,220,220);stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:rgb(30,30,30);stop-opacity:1" />
+                </linearGradient>
+
+                <radialGradient id="bidRedFill" cx="50%" cy="40%" r="60%" >    
+                        <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1.00" />
+                        <stop offset="77%" style="stop-color:rgb(173,0,0);stop-opacity:1.00" />
+                        <stop offset="100%" style="stop-color:rgb(73,0,0);stop-opacity:1.00" />        
+                </radialGradient>
+                <radialGradient id="bidWhiteFill" cx="50%" cy="40%" r="60%" >    
+                    <stop offset="0%" style="stop-color:rgb(228, 228, 228);stop-opacity:1.00" />
+                    <stop offset="77%" style="stop-color:rgb(206, 206, 206);stop-opacity:1.00" />
+                    <stop offset="100%" style="stop-color:rgb(140,140,140);stop-opacity:1.00" />    
+                </radialGradient>
+                <linearGradient id="bidHighlight" x1="50%" y1="0%" x2="50%" y2="100%" >    
+                    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:0.5" />
+                    <stop offset="15%" style="stop-color:rgb(255,255,255);stop-opacity:0.6" />
+                    <stop offset="50%" style="stop-color:rgb(255,255,255);stop-opacity:0.4" />
+                    <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:0.00" />          
+                </linearGradient>
+            </defs>
+        </svg>
+        <div id="WORKAREA"></div>
+        <div id="FRAME_LEFT" style="background:url('./asset/woodframe.png'); background-size: cover; position: absolute; top:0px; width: 4vw; height:100%; left:0px;"></div>
+        <div id="FRAME_RIGHT" style="background:url('./asset/woodframe.png'); background-size: cover; position: absolute; top:0px; width: 4vw; height:100%; right:0px;"></div>
+        <div id="UI_TOOLBAR"></div>
+        <script src="./code/numberrack.js"></script>
+        <script>
+            new upred.ui.CommonUI().Start(new upred.math.NumberRack());
+        </script>
+    </body>
+</html>

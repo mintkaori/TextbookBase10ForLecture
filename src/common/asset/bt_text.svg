@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<svg width="42" height="43" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 141.732 141.732" version="1.1" xml:space="preserve">
+ <g class="layer">
+  <title>Layer 1</title>
+  <defs transform="translate(0 1) translate(0 -1)">
+   <rect height="141.73" id="SVGID_1_" width="141.73"/>
+  </defs>
+  <clipPath id="SVGID_2_">
+   <use id="svg_2" overflow="visible" x="0" xlink:href="#SVGID_1_" y="-1"/>
+  </clipPath>
+  <path clip-path="url(#SVGID_2_)" d="m23.39,5.22c0,14.58 -8.9,24.81 -18.62,29.39l-4.77,-3.58c9.72,-4.08 16,-12.97 16,-20.58l-13.39,0l0,-5.23l20.78,0zm17.51,17.28l-5.68,0l0,18.85l-6.15,0l0,-40.35l6.15,0l0,15.91l5.68,0l0,5.59z" id="svg_4"/>
+ </g>
+</svg>

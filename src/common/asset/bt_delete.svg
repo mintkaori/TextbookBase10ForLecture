@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<svg width="85" height="85" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 141.732 141.732" version="1.1" xml:space="preserve">
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <defs transform="translate(7.62939e-7 0) translate(0 -30.98) translate(-31.2 0)">
+    <rect height="141.73" id="SVGID_1_" width="141.73"/>
+   </defs>
+   <clipPath id="SVGID_2_">
+    <use id="svg_2" overflow="visible" x="-31.2" xlink:href="#SVGID_1_" y="-30.98"/>
+   </clipPath>
+   <path clip-path="url(#SVGID_2_)" d="m85.04,42.52c0,23.48 -19.03,42.52 -42.52,42.52s-42.52,-19.04 -42.52,-42.52c0,-23.49 19.04,-42.52 42.52,-42.52s42.52,19.03 42.52,42.52" id="svg_3"/>
+   <path clip-path="url(#SVGID_2_)" d="m66.99,22.38c1.22,1.22 1.22,3.22 0,4.44l-40.16,40.17c-1.22,1.22 -3.22,1.22 -4.44,0l-4.34,-4.34c-1.22,-1.22 -1.22,-3.22 0,-4.44l40.17,-40.16c1.22,-1.23 3.22,-1.22 4.44,0l4.33,4.33z" fill="#FFFFFF" id="svg_4"/>
+   <path clip-path="url(#SVGID_2_)" d="m18.05,22.38c-1.22,1.22 -1.22,3.22 0,4.44l40.17,40.17c1.22,1.22 3.22,1.22 4.44,0l4.33,-4.33c1.22,-1.23 1.22,-3.23 0,-4.45l-40.17,-40.16c-1.22,-1.23 -3.22,-1.22 -4.44,0l-4.33,4.33z" fill="#FFFFFF" id="svg_5"/>
+  </g>
+ </g>
+</svg>

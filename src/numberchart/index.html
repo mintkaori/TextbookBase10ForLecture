@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width, height=device-height, target-densitydpi=device-dpi">
+        <title>수 배열표</title>
+        <link rel="stylesheet" href="../common/css/global.css">
+        <link rel="stylesheet" href="../common/css/animation.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <svg>
+            <filter id="filterOutline">
+                <feMorphology in="SourceAlpha" result="EXP" operator="dilate" radius="2"></feMorphology>
+                
+                <feFlood flood-color="#1F618D" flood-opacity="1" result="LINECOLOR"></feFlood>
+                <feComposite in="LINECOLOR" in2="EXP" operator="in" result="OUTLINE"></feComposite>
+        
+                <feMerge>
+                    <feMergeNode in="OUTLINE" />
+                    <feMergeNode in="SourceGraphic" />
+                </feMerge>
+            </filter>
+        </svg>
+        <div id="WORKAREA"></div>
+        <div id="UI_PALETTE"></div>
+        <div id="UI_TOOLBAR"></div>
+        <div id="CUSTOM_MAKE_DLG" style="display: none;">
+            <div id="CUSTOM_MAKE_DLG_BACK">
+                <div id="CUSTOM_MAKE_TITLE">수배열표 만들기</div>
+                <div id="CUSTOM_MAKE_DLG_INNER">
+                    <table id="CUSTOM_MAKE_FRAME">
+                        <tr>
+                            <td class="customDlgInnerLeft" rowspan="2">크기</td>
+                            <td class="customDlgInnerRight" style="padding-bottom: 0px; border-bottom:none;">
+                                <div style="vertical-align: middle;">
+                                    <table id="CELL_SELECT_TABLE" style="vertical-align: middle;">
+                                    </table>
+                                    <input class="customDlgInputNumber" type="number" id="CMGD_ROW" value="0" style="vertical-align: middle;">줄
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="customDlgInnerRight" style="padding-left:100px;">
+                                <input type="number" id="CMGD_COLUMN" value="0">칸
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="customDlgInnerLeft">수</td>
+                            <td class="customDlgInnerRight">
+                                첫 칸: <input type="number" id="CMGD_STARTNO" value="1">&nbsp;&nbsp;
+                                곱하는 수: <input type="number" id="CMGD_MULTI" value="1">&nbsp;&nbsp;
+                                더하는 수: <input type="number" id="CMGD_ADD" value="1"><BR>
+                                <span style="color:blue">다음 칸의 수 = 이전 칸의 수 X 곱하는 수 + 더하는 수</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="customDlgInnerLeft">방향</td>
+                            <td class="customDlgInnerRight">
+                                <span class="customDlgDirectionSelector">
+                                    <img src="./asset/direction_0.png" onclick="document.getElementsByName('CMGD_DIRECTION')[0].checked=true;"><br>
+                                    <input type="radio" name="CMGD_DIRECTION" value="0" checked>
+                                </span>                                
+                                <span class="customDlgDirectionSelector">
+                                    <img src="./asset/direction_1.png" onclick="document.getElementsByName('CMGD_DIRECTION')[1].checked=true;"><br>
+                                    <input type="radio" name="CMGD_DIRECTION" value="1">
+                                </span>
+                                <span class="customDlgDirectionSelector">
+                                    <img src="./asset/direction_2.png" onclick="document.getElementsByName('CMGD_DIRECTION')[2].checked=true;"><br>
+                                    <input type="radio" name="CMGD_DIRECTION" value="2">
+                                </span>
+                                <span class="customDlgDirectionSelector">
+                                    <img src="./asset/direction_3.png" onclick="document.getElementsByName('CMGD_DIRECTION')[3].checked=true;"><br>
+                                    <input type="radio" name="CMGD_DIRECTION" value="3">
+                                </span>
+                                <span class="customDlgDirectionSelector">
+                                    <img src="./asset/direction_4.png" onclick="document.getElementsByName('CMGD_DIRECTION')[4].checked=true;"><br>
+                                    <input type="radio" name="CMGD_DIRECTION" value="4">
+                                </span>
+                                <span class="customDlgDirectionSelector">
+                                    <img src="./asset/direction_5.png" onclick="document.getElementsByName('CMGD_DIRECTION')[5].checked=true;"><br>
+                                    <input type="radio" name="CMGD_DIRECTION" value="5">
+                                </span>
+                                <span class="customDlgDirectionSelector">
+                                    <img src="./asset/direction_6.png" onclick="document.getElementsByName('CMGD_DIRECTION')[6].checked=true;"><br>
+                                    <input type="radio" name="CMGD_DIRECTION" value="6">
+                                </span>
+                                <span class="customDlgDirectionSelector">
+                                    <img src="./asset/direction_7.png" onclick="document.getElementsByName('CMGD_DIRECTION')[7].checked=true;"><br>
+                                    <input type="radio" name="CMGD_DIRECTION" value="7">
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="customDlgInnerLine" colspan="2">
+                                <button id="CUSTOMMAKE_OK" class="customDlgOKButton">만들기</button>&nbsp;&nbsp;
+                                <button id="CUSTOMMAKE_CANCEL" class="customDlgCancelButton">취소</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="./code/numberchart.js"></script>
+        <script>
+            new upred.ui.CommonUI().Start(new upred.math.NumberChart());
+        </script>
+    </body>
+</html>

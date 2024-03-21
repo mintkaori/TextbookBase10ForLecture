@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<svg width="86" height="90" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 141.732 141.732" version="1.1" xml:space="preserve">
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <defs transform="translate(0 1) translate(0 1) translate(0 1) translate(1 0) translate(1 0) translate(1 0) translate(-3 -3) translate(0 1) translate(0 1) translate(0 1) translate(1 0) translate(1 0) translate(1 0) translate(0 -31.245) translate(-33.944 0)">
+    <rect height="141.73" id="SVGID_1_" width="141.73"/>
+   </defs>
+   <clipPath id="SVGID_2_">
+    <use id="svg_2" overflow="visible" x="-30.94" xlink:href="#SVGID_1_" y="-28.25"/>
+   </clipPath>
+   <path clip-path="url(#SVGID_2_)" d="m9.7,59.18l55.3,-55.3c1.19,-1.18 3.12,-1.18 4.31,0l12.78,12.79c1.19,1.18 1.19,3.12 0,4.3l-55.3,55.3" fill="none" id="svg_3" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5"/>
+   <line clip-path="url(#SVGID_2_)" fill="none" id="svg_4" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5" x1="44.54" x2="64.37" y1="41.44" y2="21.6"/>
+   <line clip-path="url(#SVGID_2_)" fill="none" id="svg_5" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5" x1="55.83" x2="72.92" y1="13.06" y2="30.15"/>
+   <polygon clip-path="url(#SVGID_2_)" fill="none" id="svg_6" points="26.78799819946289,76.27499389648438 3.000000238418579,82.9739990234375 9.701000213623047,59.185997009277344 " stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5"/>
+   <rect clip-path="url(#SVGID_2_)" height="3.65" id="svg_7" width="64.62" x="3" y="82.97"/>
+   <rect clip-path="url(#SVGID_2_)" fill="none" height="3.65" id="svg_8" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5" width="64.62" x="3" y="82.97"/>
+  </g>
+ </g>
+</svg>

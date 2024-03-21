@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<svg width="91" height="74" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 141.732 141.732" version="1.1" xml:space="preserve">
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_5">
+   <line fill="none" id="svg_1" stroke="#000000" stroke-miterlimit="10" stroke-width="5" x1="26.31" x2="56.49" y1="34.11" y2="64.68"/>
+   <g id="svg_2">
+    <defs transform="translate(0 -1) translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(-1 0) translate(1 0) translate(1 0) translate(1 0) translate(1 0) translate(-3.57628e-7 -1.19209e-7) translate(0 -39.9924) translate(-31.6436 0)">
+     <rect height="141.73" id="SVGID_1_" width="141.73"/>
+    </defs>
+    <clipPath id="SVGID_2_">
+     <use id="svg_3" overflow="visible" x="-28.64" xlink:href="#SVGID_1_" y="-36.99"/>
+    </clipPath>
+    <path clip-path="url(#SVGID_2_)" d="m86.22,35.35c2.41,-2.38 2.44,-6.3 0.06,-8.71l-21.53,-21.82c-2.38,-2.4 -6.3,-2.43 -8.71,-0.05l-51.21,50.54c-2.41,2.38 -2.44,6.29 -0.06,8.7l6.39,6.48l39.45,0l35.61,-35.14z" fill="none" id="svg_4" stroke="#000000" stroke-miterlimit="10" stroke-width="5"/>
+   </g>
+  </g>
+ </g>
+</svg>

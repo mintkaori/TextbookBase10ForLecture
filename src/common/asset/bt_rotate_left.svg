@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<svg width="93" height="81" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 141.732 141.732" version="1.1" xml:space="preserve">
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <defs transform="translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(0 0.00000152588) translate(0 -41.4) translate(-28.323 0)">
+    <rect height="141.73" id="SVGID_1_" width="141.73"/>
+   </defs>
+   <clipPath id="SVGID_2_">
+    <use id="svg_2" overflow="visible" x="-28.32" xlink:href="#SVGID_1_" y="-33.4"/>
+   </clipPath>
+   <path clip-path="url(#SVGID_2_)" d="m20.71,40.46c0,-17.93 14.4,-32.46 32.17,-32.46c17.76,0 32.16,14.53 32.16,32.46c0,17.93 -14.4,32.46 -32.16,32.46" fill="none" id="svg_3" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="14.22"/>
+   <polygon clip-path="url(#SVGID_2_)" id="svg_4" points="41.41999816894531,38.23500061035156 20.709001541137695,64.49600219726562 0,38.23500061035156 "/>
+  </g>
+ </g>
+</svg>

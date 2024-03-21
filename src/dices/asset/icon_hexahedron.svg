@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="708.662px" height="708.662px" viewBox="0 0 708.662 708.662" enable-background="new 0 0 708.662 708.662"
+	 xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="71.683" y="183.922" width="453.542" height="453.542"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="4.882813e-004" y1="708.6616" x2="1.0005" y2="708.6616" gradientTransform="matrix(453.5425 0 0 -453.5425 71.5433 321818.9063)">
+		<stop  offset="0" style="stop-color:#595857"/>
+		<stop  offset="0.3454" style="stop-color:#44403F"/>
+		<stop  offset="0.6832" style="stop-color:#2E2B2A"/>
+		<stop  offset="1" style="stop-color:#232120"/>
+	</linearGradient>
+	<rect x="71.683" y="183.922" clip-path="url(#SVGID_2_)" fill="url(#SVGID_3_)" width="453.542" height="453.542"/>
+</g>
+<rect x="71.683" y="183.922" fill="none" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" width="453.542" height="453.542"/>
+<g>
+	<defs>
+		<polygon id="SVGID_4_" points="525.225,183.921 71.682,183.921 185.068,70.537 638.611,70.537 		"/>
+	</defs>
+	<clipPath id="SVGID_5_">
+		<use xlink:href="#SVGID_4_"  overflow="visible"/>
+	</clipPath>
+	
+		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="0" y1="708.6606" x2="1" y2="708.6606" gradientTransform="matrix(51.1324 190.8288 190.8288 -51.1324 -134903.4063 36267.3789)">
+		<stop  offset="0" style="stop-color:#595857"/>
+		<stop  offset="0.3454" style="stop-color:#44403F"/>
+		<stop  offset="0.6832" style="stop-color:#2E2B2A"/>
+		<stop  offset="1" style="stop-color:#232120"/>
+	</linearGradient>
+	<polygon clip-path="url(#SVGID_5_)" fill="url(#SVGID_6_)" points="600.634,-71.196 666.957,176.326 109.659,325.654 
+		43.336,78.132 	"/>
+</g>
+<polygon fill="none" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" points="525.226,183.922 
+	71.682,183.922 185.068,70.536 638.611,70.536 "/>
+<g>
+	<defs>
+		<polygon id="SVGID_7_" points="638.611,524.08 525.225,637.464 525.225,183.921 638.611,70.537 		"/>
+	</defs>
+	<clipPath id="SVGID_8_">
+		<use xlink:href="#SVGID_7_"  overflow="visible"/>
+	</clipPath>
+	
+		<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="0" y1="708.6606" x2="1" y2="708.6606" gradientTransform="matrix(168.9439 464.1696 464.1696 -168.9439 -328441.7188 119845.9297)">
+		<stop  offset="0" style="stop-color:#595857"/>
+		<stop  offset="0.2011" style="stop-color:#4F4C4C"/>
+		<stop  offset="0.6791" style="stop-color:#353130"/>
+		<stop  offset="1" style="stop-color:#232120"/>
+	</linearGradient>
+	<polygon clip-path="url(#SVGID_8_)" fill="url(#SVGID_9_)" points="625.348,34.095 820.818,571.147 538.488,673.906 
+		343.018,136.854 	"/>
+</g>
+<polygon fill="none" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" points="638.61,524.08 
+	525.225,637.464 525.225,183.921 638.61,70.537 "/>
+<g>
+	<defs>
+		<rect id="SVGID_10_" y="0" width="708.662" height="708.662"/>
+	</defs>
+	<clipPath id="SVGID_11_">
+		<use xlink:href="#SVGID_10_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_11_)" fill="#FFFFFF" d="M389.174,457.142c0,11.52-2.042,23.041-6.12,34.561
+		c-4.082,11.52-9.844,21.779-17.279,30.779c-7.442,9-16.56,16.318-27.36,21.961c-10.8,5.637-22.803,8.459-36,8.459
+		c-16.324,0-30.482-3.004-42.48-9c-12.004-6.002-21.842-14.039-29.52-24.119c-7.684-10.08-13.382-21.656-17.1-34.74
+		c-3.724-13.078-5.58-26.697-5.58-40.859c0.236-18.721,3.42-38.1,9.54-58.141c6.12-20.037,15.058-40.258,26.82-60.66
+		c4.32-7.436,8.218-13.68,11.699-18.72c3.477-5.04,6.717-9.36,9.721-12.96c2.998-3.6,5.878-6.779,8.64-9.54
+		c2.756-2.756,5.58-5.699,8.46-8.82c4.556-4.799,9.236-7.076,14.04-6.841c4.798,0.243,8.696,1.863,11.7,4.861
+		c2.998,3.004,4.619,6.902,4.86,11.7c0.236,4.804-2.042,9.36-6.84,13.68c-2.644,2.402-5.524,5.4-8.64,9
+		c-3.122,3.6-6.182,7.442-9.181,11.52c-3.003,4.083-6.001,8.161-9,12.239c-3.003,4.084-5.579,7.803-7.739,11.16
+		c-2.644,3.602-5.525,8.945-8.64,16.021c-3.122,7.082-6.244,14.344-9.36,21.779c8.156-5.518,16.678-9.358,25.559-11.52
+		c8.877-2.16,17.039-3.24,24.481-3.24c11.757,0,22.799,2.699,33.121,8.1c10.315,5.4,19.315,12.42,27,21.061
+		c7.678,8.639,13.797,18.422,18.358,29.34C386.892,435.126,389.174,446.107,389.174,457.142 M352.094,435.542
+		c-2.88-7.678-7.02-14.338-12.42-19.979c-5.4-5.638-11.464-10.019-18.18-13.14c-6.722-3.117-13.86-4.735-21.421-4.86
+		c-7.559-0.118-14.821,1.384-21.78,4.5c-7.441,3.362-13.803,7.981-19.08,13.86c-5.281,5.883-9.359,12.48-12.239,19.799
+		c-2.88,7.324-4.382,15.064-4.5,23.221c-0.124,8.162,1.378,16.199,4.5,24.12c2.88,7.919,7.02,14.704,12.42,20.339
+		c5.399,5.643,11.458,9.963,18.179,12.961c6.716,3.004,13.799,4.561,21.241,4.68c7.436,0.123,14.76-1.379,21.96-4.5
+		c7.436-3.357,13.799-7.977,19.08-13.859c5.277-5.879,9.36-12.42,12.24-19.62c2.881-7.2,4.377-14.94,4.5-23.22
+		C356.712,451.563,355.21,443.462,352.094,435.542"/>
+</g>
+</svg>

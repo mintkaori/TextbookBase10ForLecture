@@ -1,0 +1,12 @@
+#UI_PALETTE{
+    width:15vw;
+    z-index: 900;
+}
+@media only screen and (max-width: 600px) {   
+    #UI_PALETTE{
+        width:unset;
+        height:15vh;
+        z-index: 900;
+    }
+}
+

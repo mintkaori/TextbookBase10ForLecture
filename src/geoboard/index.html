@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width, height=device-height, target-densitydpi=device-dpi">
+        <title>도형판</title>
+        <link rel="stylesheet" href="../common/css/global.css">
+        <link rel="stylesheet" href="../common/css/animation.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <svg>
+            <filter id="filterOutline" x="-40%" width="180%" y="-40%" height="180%">
+                <feMorphology in="SourceAlpha" result="EXP" operator="dilate" radius="2"></feMorphology>
+                
+                <feFlood flood-color="#1F618D" flood-opacity="1" result="LINECOLOR"></feFlood>
+                <feComposite in="LINECOLOR" in2="EXP" operator="in" result="OUTLINE"></feComposite>
+        
+                <feMerge>
+                    <feMergeNode in="OUTLINE" />
+                    <feMergeNode in="SourceGraphic" />
+                </feMerge>
+            </filter>
+        </svg>
+        <div id="WORKAREA"></div>
+        <div id="UI_PALETTE"></div>
+        <div id="UI_TOOLBAR"></div>
+        <script src="./code/geoboard.js"></script>
+        <script>
+            new upred.ui.CommonUI().Start(new upred.math.Geoboard());
+        </script>
+    </body>
+</html>

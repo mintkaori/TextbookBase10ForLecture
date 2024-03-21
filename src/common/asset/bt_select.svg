@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<svg width="85" height="85" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" enable-background="new 0 0 141.732 141.732" version="1.1" xml:space="preserve">
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_17">
+   <rect height="3.88" id="svg_1" width="18.67" x="0" y="0"/>
+   <rect height="3.88" id="svg_2" width="18.67" x="66.36" y="0"/>
+   <rect height="3.88" id="svg_3" width="16.02" x="23.88" y="0"/>
+   <rect height="3.88" id="svg_4" width="16.02" x="45.13" y="0"/>
+   <rect height="18.67" id="svg_5" width="3.88" x="0" y="66.37"/>
+   <rect height="18.67" id="svg_6" width="3.88" x="0" y="0"/>
+   <rect height="16.02" id="svg_7" width="3.88" x="0" y="45.13"/>
+   <rect height="16.02" id="svg_8" width="3.88" x="0" y="23.89"/>
+   <rect height="3.88" id="svg_9" width="18.67" x="66.36" y="81.16"/>
+   <rect height="3.88" id="svg_10" width="18.67" x="0" y="81.16"/>
+   <rect height="3.88" id="svg_11" width="16.03" x="45.13" y="81.16"/>
+   <rect height="3.88" id="svg_12" width="16.02" x="23.89" y="81.16"/>
+   <rect height="18.67" id="svg_13" width="3.88" x="81.16" y="0"/>
+   <rect height="18.67" id="svg_14" width="3.88" x="81.16" y="66.36"/>
+   <rect height="16.03" id="svg_15" width="3.88" x="81.16" y="23.88"/>
+   <rect height="16.02" id="svg_16" width="3.88" x="81.16" y="45.13"/>
+  </g>
+ </g>
+</svg>

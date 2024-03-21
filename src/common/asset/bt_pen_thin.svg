@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<svg width="86" height="90" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 141.732 141.732" version="1.1" xml:space="preserve">
+ <g class="layer">
+  <title>Layer 1</title>
+  <defs transform="translate(34.5154 31.848) translate(0 1) translate(0 1) translate(0 1) translate(1 0) translate(1 0) translate(1 0) translate(-3 -3) translate(0 1) translate(0 1) translate(0 1) translate(1 0) translate(1 0) translate(1 0) translate(0 -31.245) translate(-33.944 0)">
+   <rect height="141.73" id="SVGID_1_" width="141.73"/>
+  </defs>
+  <clipPath id="SVGID_2_">
+   <use id="svg_2" overflow="visible" x="5.43" xlink:href="#SVGID_1_" y="-1.43"/>
+  </clipPath>
+  <line clip-path="url(#SVGID_2_)" fill="none" id="svg_4" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5" x1="30.54" x2="62.09" y1="24.01" y2="3.6"/>
+  <polygon clip-path="url(#SVGID_2_)" fill="none" id="svg_6" points="24.787997096776962,77.59849548339844 5.0000008046627045,82.68828582763672 10.574213832616806,64.61457061767578 " stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5"/>
+  <rect clip-path="url(#SVGID_2_)" height="1.65" id="svg_7" width="75.77" x="3.57" y="84.69"/>
+  <g id="selectorGroup7">
+   <path fill="none" id="selectedBox7" stroke="#22C" stroke-dasharray="5,5"/>
+  </g>
+  <line fill="none" id="svg_9" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" x1="11.14" x2="63.71" y1="63.14" y2="4"/>
+  <line fill="none" id="svg_10" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" x1="25.43" x2="78.86" y1="76.29" y2="16.29"/>
+  <line fill="none" id="svg_11" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" x1="64" x2="78.29" y1="4" y2="15.43"/>
+ </g>
+</svg>

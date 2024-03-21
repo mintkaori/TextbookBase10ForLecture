@@ -1,0 +1,63 @@
+
+#UI_PALETTE{
+    max-width: 220px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {  
+    #UI_PALETTE{
+        max-width: unset;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+@-webkit-keyframes flipInLeft {
+    0% {
+        -webkit-transform: rotateY(80deg);
+                transform: rotateY(80deg);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+        opacity: 1;
+    }
+}
+@keyframes flipInLeft {
+    0% {
+        -webkit-transform: rotateY(80deg);
+                transform: rotateY(80deg);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes flipOutRight {
+    0% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotateY(-80deg);
+                transform: rotateY(-80deg);
+        opacity: 0;
+    }
+}
+@keyframes flipOutRight {
+    0% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotateY(-80deg);
+                transform: rotateY(-80deg);
+        opacity: 0;
+    }
+}
